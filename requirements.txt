@@ -1,0 +1,4 @@
+Flask==1.1.1
+requests==2.22.0
+bs4==0.0.1
+Pillow==5.4.1
