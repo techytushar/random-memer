@@ -21,15 +21,30 @@ def get_new_memes():
         imgs [list]: List of image URLs
     """
     url = 'https://www.memedroid.com/memes/tag/programming'
+    url2 = 'https://www.cometchat.com/blog/programming-memes-for-developers'
+
     response = requests.get(url)
+    response2 = requests.get(url2)
     soup = BeautifulSoup(response.content, 'lxml')
+    soup2 = BeautifulSoup(response2.content, 'lxml')
     divs = soup.find_all('div', class_='item-aux-container')
+    figures = soup2.find_all('figure', class_='w-richtext-figure-type-image w-richtext-align-fullwidth')
+    print(len(figures))
+
     imgs = []
     for div in divs:
         img = div.find('img')['src']
-        if img.startswith('http') and img.endswith('jpeg'):
+        if img.startswith('http') :
             imgs.append(img)
+
+    for figure in figures:
+        img = figure.find('img')['src']
+        if img.startswith('http') :
+            imgs.append(img)
+
+    print(len(imgs))
     return imgs
+
 
 
 def serve_pil_image(pil_img):
@@ -43,7 +58,7 @@ def serve_pil_image(pil_img):
         [response]: Sends image file as response
     """
     img_io = BytesIO()
-    pil_img.save(img_io, 'JPEG', quality=70)
+    pil_img.convert('RGB').save(img_io, 'JPEG', quality=70)
     img_io.seek(0)
     return send_file(img_io, mimetype='image/jpeg')
 
