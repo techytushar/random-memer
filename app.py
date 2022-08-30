@@ -22,14 +22,23 @@ def get_new_memes():
     """
     url = 'https://www.memedroid.com/memes/tag/programming'
     url2 = 'https://www.cometchat.com/blog/programming-memes-for-developers'
+    url3 = 'https://www.testbytes.net/blog/programming-memes/'
+
 
     response = requests.get(url)
     response2 = requests.get(url2)
+    response3 = requests.get(url3)
+
+
     soup = BeautifulSoup(response.content, 'lxml')
     soup2 = BeautifulSoup(response2.content, 'lxml')
+    soup3 = BeautifulSoup(response3.content, 'lxml')
+
     divs = soup.find_all('div', class_='item-aux-container')
     figures = soup2.find_all('figure', class_='w-richtext-figure-type-image w-richtext-align-fullwidth')
-    print(len(figures))
+    divs2 = soup3.find_all('img', class_='alignnone')
+
+
 
     imgs = []
     for div in divs:
@@ -42,7 +51,10 @@ def get_new_memes():
         if img.startswith('http') :
             imgs.append(img)
 
-    print(len(imgs))
+    for div in divs2:
+        img = div['src']
+        imgs.append(img)
+
     return imgs
 
 
