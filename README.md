@@ -36,7 +36,7 @@ response delay of up to 30 seconds for the first request that comes in after a p
 
 ## Use [Railway](https://railway.app) (500 hours)
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/0gpOr1?referralCode=dUt24_)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/Hp9Kv4?referralCode=dUt24_)
 
 
 
