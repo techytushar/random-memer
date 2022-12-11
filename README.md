@@ -16,6 +16,17 @@ You can also use this with `img` tag in your website and it will display a rando
 * ~The API is deployed on the free dyno provided by Heroku, which shuts-down if there is no request to it for some time, so sometimes it might take some time to load the image from the URL.~
 
 ### Heroku free dyno is no longer available⚠️<br>
+
+## Use [Replit](https://replit.com/)
+
+[![Deploy on Railway](https://repl.it/badge/github/Ashutosh00710/github-readme-activity-graph)](https://repl.it/github/trinib/random-memer)
+
+* Click Import from GitHub Button
+
+* Click the green RUN button on top, the console will run and at last the url will shows on the right
+
+---
+
 ## Use [Render](https://render.com/) (750 hours)<br>
 > **Note**
 response delay of up to 30 seconds for the first request that comes in after a period of inactivity
@@ -37,6 +48,4 @@ response delay of up to 30 seconds for the first request that comes in after a p
 ## Use [Railway](https://railway.app) (500 hours)
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/Hp9Kv4?referralCode=dUt24_)
-
-
 
