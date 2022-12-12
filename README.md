@@ -17,11 +17,30 @@ You can also use this with `img` tag in your website and it will display a rando
 
 ### Heroku free dyno is no longer available⚠️<br>
 
-## Use [Replit](https://replit.com/)
+#
+
+## Use [Railway](https://railway.app) (500 hours)
+
+> **Note**
+No delay
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/Hp9Kv4?referralCode=dUt24_)
+
+* Link git account and click deploy 
+
+* URL will produce after finish building
+
+---
+
+
+## Use [Replit](https://replit.com/) (unlimited hours)
 > **Warning**
 response delay of up to 30 seconds for the first request that comes in after a period of inactivity
 
-[![Deploy on Railway](https://repl.it/badge/github/Ashutosh00710/github-readme-activity-graph)](https://repl.it/github/trinib/random-memer)
+<p align="left">
+<a href="https://repl.it/github/trinib/random-memer">
+  <img alt="Run on Repl.it" src="https://repl.it/badge/github/Ashutosh00710/github-readme-activity-graph" style="height: 50px; width: 200px;" />
+</a></p>
 
 * Click Import from GitHub Button
 
@@ -47,12 +66,6 @@ response delay of up to 30 seconds for the first request that comes in after a p
 
 * Click 'Create Web Service' and wait until "==> Build successful 🎉" and server is Live
 
-* Click server link at top left (https://appname-xxxx.onrender.com)
-
----
-
-## Use [Railway](https://railway.app) (500 hours)
-
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/Hp9Kv4?referralCode=dUt24_)
+* Click URL server link at top left (https://appname-xxxx.onrender.com)
 
 ---
