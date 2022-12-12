@@ -64,5 +64,3 @@ def return_meme():
     res.raw.decode_content = True
     img = Image.open(res.raw)
     return serve_pil_image(img)
-    
-app.run(host='0.0.0.0', port=80)

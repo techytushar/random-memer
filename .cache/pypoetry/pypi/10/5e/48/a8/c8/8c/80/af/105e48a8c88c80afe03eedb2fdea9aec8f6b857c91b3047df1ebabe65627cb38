@@ -1,1 +1,0 @@
-9999999999{"name": "bs4", "version": "0.0.1", "summary": "Dummy package for Beautiful Soup", "platform": "", "requires_dist": ["beautifulsoup4"], "requires_python": null, "files": [], "_cache_version": "1.0.0"}
