@@ -26,12 +26,11 @@ No delay
 
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/Hp9Kv4?referralCode=dUt24_)
 
-* Link git account and click deploy 
+* Sign in with GitHub to Deploy
 
 * URL will produce after finish building
 
 ---
-
 
 ## Use [Replit](https://replit.com/) (unlimited hours)
 > **Warning**
@@ -48,7 +47,7 @@ response delay of up to 30 seconds for the first request that comes in after a p
 
 * Add line `app.run(host='0.0.0.0', port=80)` at the end of 'app.py' file
 
-* Click the green RUN button on top, the console will run, wait to finish and output URL on the right under "Webview"
+* Click the $\color{white} \colorbox{Green} {RUN}$ button on top, the console will run, wait to finish and output URL on the right under "Webview"
 
 ---
 
@@ -56,16 +55,14 @@ response delay of up to 30 seconds for the first request that comes in after a p
 > **Warning**
 response delay of up to 30 seconds for the first request that comes in after a period of inactivity
 
-* Create account https://dashboard.render.com/register
+* Sign in https://dashboard.render.com/select-repo?type=static
 
-* Click **Add New +** (Web Service)
-
-* Use a public repository by entering https://github.com/techytushar/random-memer and  click 'continue'
+* Enter in **Public Git repository** https://github.com/techytushar/random-memer and  click 'continue'
 
 * Enter a name and add `gunicorn app:app` in **Start Command** option 
 
 * Click 'Create Web Service' and wait until "==> Build successful 🎉" and server is Live
 
-* Click URL server link at top left (https://appname-xxxx.onrender.com)
+* Click URL link at top left (https://appname-xxxx.onrender.com)
 
 ---
