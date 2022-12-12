@@ -1,0 +1,1 @@
+9999999999{"name": "soupsieve", "version": "2.3.2.post1", "summary": "A modern CSS selector implementation for Beautiful Soup.", "platform": null, "requires_dist": ["backports-functools-lru-cache; python_version < '3'"], "requires_python": ">=3.6", "files": [], "_cache_version": "1.0.0"}
