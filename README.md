@@ -14,7 +14,7 @@ You can also use this with `img` tag in your website and it will display a rando
 
 Just add `img` tag in your website / README file and it will display a random meme everytime the website is loaded
 
-### Heroku free dyno is no longer available⚠️<br>
+> **Deprecation Note:** The previous Heroku app link has stopped working due to Heroku [discontinuing its free tier services](https://blog.heroku.com/next-chapter). Deploy your own instance of the app using the links below and use them. 
 
 ## How to deploy
 
