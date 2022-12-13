@@ -16,7 +16,7 @@ Just add `img` tag in your website / README file and it will display a random me
 
 ### Heroku free dyno is no longer available⚠️<br>
 
-#
+## How to deploy
 
 ## Use [Railway](https://railway.app) (500 hours)
 
