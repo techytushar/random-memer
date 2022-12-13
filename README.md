@@ -19,7 +19,7 @@ Just add `img` tag in your website / README file and it will display a random me
 > **Note**
 No delay
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/Hp9Kv4?referralCode=dUt24_)
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/8vH6Pz?referralCode=dUt24_)
 
 * Sign in with GitHub to Deploy
 
@@ -31,18 +31,22 @@ No delay
 > **Warning**
 response delay of up to 30 seconds for the first request that comes in after a period of inactivity
 
-<p align="left">
-<a href="https://repl.it/github/trinib/random-memer">
+* Sign in and select 'Connect GitHub to import your private repos'
+
+* <p align="left">
+<a href="https://repl.it/github/techytushar/random-memer">
   <img alt="Run on Repl.it" src="https://repl.it/badge/github/Ashutosh00710/github-readme-activity-graph" style="height: 50px; width: 200px;" />
 </a></p>
 
 * Click Import from GitHub Button
 
-* Run `pip install gunicorn==20.0.4` and `pip install lxml` in console on the right
+* Run `pip install gunicorn==20.0.4 && pip install lxml` in console on the right
 
 * Add line `app.run(host='0.0.0.0', port=80)` at the end of 'app.py' file
 
-* Click the $\color{white} \colorbox{Green} {RUN}$ button on top, the console will run, wait to finish and output URL on the right under "Webview"
+* Click the $\color{white} \colorbox{Green} {RUN}$ button on top, the console will run, wait to finish
+
+* Check URL on the right under "Webview"
 
 ---
 
@@ -58,6 +62,6 @@ response delay of up to 30 seconds for the first request that comes in after a p
 
 * Click 'Create Web Service' and wait until "==> Build successful 🎉" and server is Live
 
-* Click URL link at top left (https://appname-xxxx.onrender.com)
+* Check URL at the top left
 
 ---
