@@ -19,7 +19,10 @@ Just add `img` tag in your website / README file and it will display a random me
 > **Note**
 No delay
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/8vH6Pz?referralCode=dUt24_)
+> **Warning**
+Once all hours used, project will shut down until next month and will need to restart manually
+
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/8vH6Pz)
 
 * Sign in with GitHub to Deploy
 
@@ -33,10 +36,7 @@ response delay of up to 30 seconds for the first request that comes in after a p
 
 * Sign in and select 'Connect GitHub to import your private repos'
 
-* <p align="left">
-<a href="https://repl.it/github/techytushar/random-memer">
-  <img alt="Run on Repl.it" src="https://repl.it/badge/github/Ashutosh00710/github-readme-activity-graph" style="height: 50px; width: 200px;" />
-</a></p>
+[![Deploy on Railway](https://repl.it/badge/github/Ashutosh00710/github-readme-activity-graph)](https://repl.it/github/techytushar/random-memer)
 
 * Click Import from GitHub Button
 
