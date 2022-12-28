@@ -19,6 +19,9 @@ Just add `img` tag in your website / README file and it will display a random me
 > **Note**
 No delay
 
+> **Warning**
+Once all hours used, project will shut down until next month and will need to restart manually
+
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/Hp9Kv4?referralCode=dUt24_)
 
 * Sign in with GitHub to Deploy
