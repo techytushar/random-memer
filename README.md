@@ -14,50 +14,12 @@ Just add `img` tag in your website / README file and it will display a random me
 
 ## How to deploy
 
-## Use [Railway](https://railway.app) (500 hours)
+## [Vercel](https://vercel.com/)
 
-> **Note**
-No delay
+[![Deploy to Vercel](https://camo.githubusercontent.com/f209ca5cc3af7dd930b6bfc55b3d7b6a5fde1aff/68747470733a2f2f76657263656c2e636f6d2f627574746f6e)](https://vercel.com/import/project?template=https://github.com/trinib/memer)
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/Hp9Kv4?referralCode=dUt24_)
+- Enter repository name and click create.
 
-* Sign in with GitHub to Deploy
+- When finished, go to dashboard and click view domains to get URL.
 
-* URL will produce after finish building
 
----
-
-## Use [Replit](https://replit.com/) (unlimited hours)
-> **Warning**
-response delay of up to 30 seconds for the first request that comes in after a period of inactivity
-
-<p align="left">
-<a href="https://repl.it/github/trinib/random-memer">
-  <img alt="Run on Repl.it" src="https://repl.it/badge/github/Ashutosh00710/github-readme-activity-graph" style="height: 50px; width: 200px;" />
-</a></p>
-
-* Click Import from GitHub Button
-
-* Run `pip install gunicorn==20.0.4` and `pip install lxml` in console on the right
-
-* Add line `app.run(host='0.0.0.0', port=80)` at the end of 'app.py' file
-
-* Click the $\color{white} \colorbox{Green} {RUN}$ button on top, the console will run, wait to finish and output URL on the right under "Webview"
-
----
-
-## Use [Render](https://render.com/) (750 hours)<br>
-> **Warning**
-response delay of up to 30 seconds for the first request that comes in after a period of inactivity
-
-* Sign in https://dashboard.render.com/select-repo?type=static
-
-* Enter in **Public Git repository** https://github.com/techytushar/random-memer and  click 'continue'
-
-* Enter a name and add `gunicorn app:app` in **Start Command** option 
-
-* Click 'Create Web Service' and wait until "==> Build successful 🎉" and server is Live
-
-* Click URL link at top left (https://appname-xxxx.onrender.com)
-
----
